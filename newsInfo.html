@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>资讯详情</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/newsInfo.css?v=1.1">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+    <div class="app-wraper">
+        <div class="refresh-wrapper">
+            <div class="top-tip">
+                <span class="refresh-hook">下拉刷新</span>
+            </div>
+            <div class="banners oneBanner">
+                <img src="" alt="" class="banner-icon">
+            </div>
+            <div class="banners moreBanner">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="contents">
+                <h3 class="news-title"></h3>
+                <div class="news-date-block">
+                    <div class="user-block fl">
+                        <span class="user-icon"><img src="images/logo.png" alt=""></span>
+                        <span class="user-name">万客会</span>
+                    </div>
+                    <div class="date-wrap fr">
+                        <span class="addTime"></span> |
+                        <span class="read-num"></span>
+                    </div>
+                    <div class="cl"></div>
+                </div>
+                <div class="news-infos"></div>
+                <div class="new-msg-block" id="message-section">
+                    <p class="intro-title">最新留言</p>
+                    <div class="hot-msg-list-wraper">
+                        <ul class="hot-list"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-tip">
+                <span class="loading-hook">查看更多</span>
+            </div>
+        </div>
+    </div>
+    <!--内容部分完，留言部分-->
+    <div class="apply-sections">
+        <div class="apply-block">
+            <span class="apply-btn">
+                留言<strong class="apply-btn-wrap"></strong>
+            </span>
+        </div>
+    </div>
+    <!--评论弹框-->
+    <div class="comment-wraper" >
+        <div class="comment-block">
+            <textarea class="comments-input" placeholder="请编辑你的留言内容"></textarea>
+        <button class="publish-btn">发布</button>
+        </div>
+    </div>
+    <div class="alert-block">
+        <span class="alert-infos"></span>
+    </div>
+    <div class="alerts alert-hook">刷新成功</div>
+    <div class="loading-block">
+        <div class="load-wraps wrap">
+            <div class="load-pics"><img src="images/loding_web.gif" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bscroll.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/newsInfo.js"></script>

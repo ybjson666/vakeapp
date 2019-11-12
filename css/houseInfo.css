@@ -1,0 +1,34 @@
+.contents{
+    padding: .5rem 1rem;
+    box-sizing: border-box;
+}
+.house-name{
+    text-align: center;
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+}
+.rows{
+    display: flex;
+}
+.labels{
+    flex: 1;
+    line-height: 2rem;
+    font-size: .75rem;
+}
+.row-items{
+    flex: 2;
+    line-height: 2rem;
+    font-size: .75rem;
+}
+.house-brief-block{
+    margin-bottom: 12rem;
+}
+.house-brief-block p{
+    text-align: center;
+    line-height: 1.5rem;
+    width: 100%;
+}
+.errors{
+    color: red;
+}

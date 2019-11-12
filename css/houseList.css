@@ -1,0 +1,40 @@
+.house-list-block{
+    padding: 0 .5rem;
+    box-sizing: border-box;
+}
+.houseList li{
+    display: flex;
+    padding: .75rem 0;
+    border-bottom: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+.icon-block{
+    width: 1.2rem;
+    transform: rotate(180deg);
+    line-height: 2.5rem;
+}
+.house-info-block{
+    width: 16rem;
+    margin-right: .5rem;
+}
+.house-name{
+    line-height: 1rem;
+    font-weight: normal;
+    font-size: .9rem;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: .5rem;
+}
+.houseInfo{
+    line-height: 1rem;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.houseInfo span{
+    margin-right: .5rem;
+    color: #808080;
+}

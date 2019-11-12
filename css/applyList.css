@@ -1,0 +1,156 @@
+
+.header{
+    height: 2.5rem;
+    padding: 0 .5rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e0e0e0;
+}
+.header-wrap{
+    height: 2.5rem;
+    display: flex;
+}
+.back-btn{
+    width: 1.2rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    margin-right: 1rem;
+}
+.nav-block{
+    flex: 1;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list li{
+    flex: 1;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: .8rem;
+    color: #000;
+    text-align: center;
+}
+
+.apply-wraps{
+    display:inline-block;
+    height: 98%;
+}
+.nav-list li.on .apply-wraps{
+    border-bottom: 2px solid #f34644;
+    box-sizing: border-box;
+}
+
+.line{
+    position: absolute;
+    width: 1rem;
+    height: .2rem;
+    background: #f34644;
+    bottom: -.1rem;
+    left: 5rem;
+    transition: .3s;
+}
+.apply-list{
+    padding: 0 .5rem;
+    box-sizing: border-box;
+    background: #fff;
+}
+.apply-list li{
+    display: flex;
+    padding: .8rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.applyer-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: .5rem;
+    position: relative;
+}
+
+.avta-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+}
+.bit{
+    position: absolute;
+    z-index: 10;
+    right: -0.3rem;
+    bottom:-0.3rem;
+    width: 1rem;
+    display: block;
+}
+.noneBit{
+    display: none;
+}
+.bit img{
+    width: 100%;
+}
+.avta-icon img{
+    height: 100%;
+}
+
+.applyer-info-wrap{
+    width: 6rem;
+}
+.applyer-info-wrap p{
+    line-height: 1.2rem;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.apply-date{
+    flex: 1;
+    text-align: right;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    color: #808080;
+}
+.applyer-name{
+    font-size: .9rem;
+}
+.applyer-info{
+    color: #808080;
+}
+.loading-block{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #fff; 
+    z-index: 150;
+  }
+  .load-wraps{
+      background: rgba(0,0,0,.6);
+  }
+  .load-pics{
+      display: block;
+      width: 5rem;
+      height: 5rem;
+      position: absolute;
+      top:50%;
+      left: 50%;
+      margin-left: -2.5rem;
+      margin-top: -2.5rem;
+  }
+
+.wrapper{
+    position: fixed;
+    bottom: 0rem;
+    overflow: hidden;
+    z-index: 5;
+    top:2.5rem;
+    width: 100%;
+    height: calc(100% - 2.5rem);
+   /* background: #333;*/
+    }
+#app{
+  height: 100%;
+}
+
+
+
+
+

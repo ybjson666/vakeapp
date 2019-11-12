@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>房屋信息报错</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/addError.css">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+    <div class="contents">
+        <div class="adderror-block">
+            <textarea  class="error-info"placeholder="请输入房屋业主的身份证号码及联系方式，我们会尽快为您处理"></textarea>
+            <div class="select-block">
+                <ul class="select-list"></ul>
+            </div>
+            <button class="sub-btn">提交</button>
+        </div>
+    </div>
+      <!--加载框-->
+    <div class="loading-block">
+        <div class="load-wraps wrap">
+            <div class="load-pics"><img src="images/loding_web.gif" alt=""></div>
+        </div>
+    </div>
+    <!--错误弹框-->
+    <div class="alert-block">
+        <span class="alert-infos"></span>
+    </div>
+</body>
+</html>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/addError.js"></script>

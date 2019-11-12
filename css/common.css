@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+    padding: 0;
+    -webkit-touch-callout:none;  /*系统默认菜单被禁用*/
+    -webkit-user-select:none;
+    -khtml-user-select:none; /*早期浏览器*/
+    -moz-user-select:none; /*火狐*/
+    -ms-user-select:none;  /*IE10*/
+    user-select:none;
+}
+input {
+
+    -webkit-user-select:auto; /*webkit浏览器*/
+    
+    }
+    
+textarea{                                                                
+    -webkit-user-select:auto; /*webkit浏览器*/
+    
+}
+html{
+	height: 100%;
+}
+body{
+	font-family: "微软雅黑";
+	font-size:.7rem;
+	color: #333;
+    height: 100%;
+    word-break: break-all;
+    word-wrap: break-word;
+
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+button{
+    border: none;
+    display: block;
+    background: transparent;
+    outline:none!important;
+    outline-color: rgba(255,255,255,0);
+}
+.button{
+    background: #34b6f4;
+    color: #fff;
+    text-align: center;
+    border-radius: .2rem;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cl{
+	clear:both;
+}
+.last{
+	margin: 0!important;
+}
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+input{
+    border-radius: 0;
+    border: none;
+    outline: none;
+}
+input[type='input']{
+    -webkit-appearance: none;
+}
+textarea{
+    border: none;
+    resize: none;
+    outline: none;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.bdBottom{
+	border-bottom: 1px solid #e6e6e6;
+}
+.block{
+    background: #fff;
+}
+::-webkit-input-placeholder { 
+color:#b3b3b3!important; 
+} 
+
+.none-border{
+	border: none!important;
+}
+.noMarging{
+    margin-right: 0!important;
+}
+.alert-block{
+    position: fixed;
+    bottom: 5rem;
+    background: rgba(172, 170, 170, 0.781);
+    padding: .2rem .3rem;
+    border-radius:.5rem;
+    left: 30%; 
+    width: 6rem;
+    text-align: center;
+    z-index: 450;
+    display: none;
+}
+.noneData{
+    text-align: center;
+    font-size: .75rem;
+    color: #999;
+    line-height: 2.5rem;
+    display: none;
+}
+.alerts{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background: rgba(7, 17, 27, 0.7);
+}
+.app-wraper{
+    position: fixed;
+    bottom: 2.5rem;
+    overflow: hidden;
+    z-index: 5;
+    top:0;
+    width: 100%;
+    /* height: 100%;   */
+}
+.top-tip{
+    position: absolute;  
+    top: -40px;  
+    left: 0;
+    z-index: 1;  
+    width: 100%;  
+    height:40px;  
+    line-height:40px;  
+    text-align:center;
+    color: #555;
+} 
+.bottom-tip{
+    width: 100%;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    text-align: center;
+    color: #777;
+    background: #f2f2f2;
+}
+.loading-block{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 150;
+    display: none;
+    background: rgba(0,0,0,.7);
+}
+.load-wraps{
+    background: rgba(255,255,255,.3);
+}
+.load-pics{
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -2rem;
+    margin-top: -2rem;
+}
+.notScroll {
+    overflow-y: hidden;
+}
+
+

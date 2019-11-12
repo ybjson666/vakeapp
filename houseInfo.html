@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的房屋信息</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/houseInfo.css">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+    <div class="contents">
+        <div class="houseInfo-wraper">
+            <p class="house-name"></p>
+            <div class="rows card-rows">
+                <span class="labels">业主身份证号</span>
+                <span class="row-items card-items"></span>
+            </div>
+            <div class="rows sign-rows">
+                <span class="labels">签约时间</span>
+                <span class="row-items sign-items "></span>
+            </div>
+            <div class="rows area-rows">
+                <span class="labels">建筑面积</span>
+                <span class="row-items area-items"></span>
+            </div>
+            <div class="rows type-rows">
+                <span class="labels">户型</span>
+                <span class="row-items type-items"></span>
+            </div>
+            <div class="rows total-rows">
+                <span class="labels">总价</span>
+                <span class="row-items total-items"></span>
+            </div>
+            <div class="rows pay-rows">
+                <span class="labels">合同交付日期</span>
+                <span class="row-items pay-items"></span>
+            </div>
+        </div>
+        <div class="house-brief-block">
+            <p>本信息仅供参考，所有数据请以购房合同为准</p>
+            <p><span class="errors">房产信息报错</span></p>
+        </div>
+    </div>
+    <!--加载框-->
+    <div class="loading-block">
+        <div class="load-wraps wrap">
+            <div class="load-pics"><img src="images/loding_web.gif" alt=""></div>
+        </div>
+    </div>
+    <!--错误弹框-->
+    <div class="alert-block">
+        <span class="alert-infos"></span>
+    </div>
+</body>
+</html>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/houseInfo.js"></script>

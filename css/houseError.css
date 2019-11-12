@@ -1,0 +1,42 @@
+.contents{
+    padding: 2.5rem 0;
+     padding-top: .5rem;
+ }
+ .contents::-webkit-scrollbar{
+     display: none;
+ }
+ .error-list li{
+     padding: .5rem;
+     box-sizing: border-box;
+     border-bottom: 1px solid #e0e0e0;
+ }
+ .error-name{
+     line-height: 1.25rem;
+     color: #666;
+ }
+ .error-time{
+     color: #666;
+ }
+ .error-data{
+     line-height: 1.25rem;
+ }
+ .unHaddle{
+     color: #f34644;
+ }
+ .haddled{
+     color: #999;
+ }
+ .add-error-block{
+     position: fixed;
+     width: 100%;
+     bottom: 0;
+     left: 0;
+     text-align: center;
+     background: #fff;
+     z-index: 5;
+     padding: .5rem 0;
+ }
+ .add-error{
+     color: #f34644;
+     font-size: .8rem;
+ }

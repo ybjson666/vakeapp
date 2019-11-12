@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>已报名</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/applyList.css">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+    <div id="app">
+		<div class="header">
+            <div class="wrap">
+                <div class="header-wrap">
+                    <div class="nav-block">
+                        <ul class="nav-list">
+                            <li class="on nav-bao">
+                                <div class="apply-wraps">
+                                    <span>已报名</span>
+                                    <span class="applyed-nums"></span>
+                                </div>
+                            </li>
+                            <li class="nav-hou">
+                                <div class="apply-wraps">
+                                    <span>候补报名</span>
+                                    <span class="hou-nums"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    	</div>
+    	<div class="wrapper">
+			<div class="section-wraper">
+				<!-- <div class="top-tip">
+                    <span class="refresh-hook">下拉刷新</span>
+                </div> -->
+		        <div class="contents">
+		            <div class="apply-block">
+		                <ul class="apply-list">
+		                </ul>
+		                <p class="noneData">暂无数据</p>
+		            </div>
+		        </div>
+		        <div class="bottom-tip">
+                    <span class="loading-hook">查看更多</span>
+                </div>
+    		</div>
+		</div>
+		
+        <!--加载框-->
+        <div class="loading-block">
+            <div class="load-wraps wrap">
+                <div class="load-pics"><img src="images/loding_web.gif" alt=""></div>
+            </div>
+        </div>
+        <!--错误弹框-->
+        <div class="alert-block">
+            <span class="alert-infos"></span>
+        </div>
+        <div class="alerts alert-hook">刷新成功</div>
+    </div>
+</body>
+</html>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/bscroll.min.js"></script>
+<script src="js/applyList.js"></script>
+
